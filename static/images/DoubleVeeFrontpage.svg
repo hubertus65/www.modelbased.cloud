@@ -3,8 +3,8 @@
 
 <svg
    width="146.95734mm"
-   height="94.182335mm"
-   viewBox="0 0 146.95734 94.182335"
+   height="95.730949mm"
+   viewBox="0 0 146.95734 95.730949"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -214,8 +214,24 @@
          fill="#156082"
          fill-rule="evenodd"
          id="path1" />
+      <path
+         d="m 574.6755,777.00202 146.27829,-0.002 16.42,31.42288 -15.48,36.23444 -147.21766,10e-4 16.88337,-36.23532 z"
+         stroke="#042433"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#156082"
+         fill-rule="evenodd"
+         id="path1-5" />
       <g
-         id="g52">
+         id="g2">
+        <rect
+           style="fill:#fd9c18;fill-opacity:1;stroke:#000000;stroke-width:0.9917;stroke-opacity:0"
+           id="rect1"
+           width="442.00986"
+           height="30.009871"
+           x="561.99506"
+           y="463.99506"
+           ry="15.004935" />
         <path
            id="use2"
            style="fill:#fd9c18;fill-opacity:1;stroke-width:1.0981"
@@ -1191,11 +1207,11 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:1.00157;stroke-dasharray:none"
-           x="571"
+           x="572.44861"
            y="485"
            id="text51"><tspan
              id="tspan51"
-             x="571"
+             x="572.44861"
              y="485">Bringing Digital Transformation to Model Based Design</tspan></text>
       </g>
     </g>

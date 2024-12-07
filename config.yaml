@@ -3,8 +3,7 @@ title: Model Based Innovation LLC
 theme: ma-hugo-theme
 params:
   logo: /images/LogoWhiteFont.svg
-  favicon: /images/MiniLogo-favicon.svg
-  darkMode: false
+  darkMode: true
   email: info@modelbased.cloud
   linkedin: hubertus-tummescheit-5220752
 menu:
