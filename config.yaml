@@ -1,0 +1,57 @@
+baseURL: https://modelbased.cloud
+title: Model Based Innovation LLC
+theme: ma-hugo-theme
+params:
+  logo: /images/LogoWhiteFont.svg
+  favicon: /images/MiniLogo-favicon.svg
+  darkMode: false
+  email: info@modelbased.cloud
+  linkedin: hubertus-tummescheit-5220752
+menu:
+  main:
+    - pageRef: "company"
+      identifier: "company"
+      name: "Company"
+      url: "/company/"
+      weight: 2
+      
+    - pageRef: "libraries"
+      identifier: "libraries"
+      name: "Libraries"
+      url: "/libraries/"
+      weight: 1      
+      
+    - pageRef: "tools"
+      identifier: "tools"
+      name: "Tools"
+      url: "/tools/"
+      weight: 1
+ 
+    - pageRef: "FMI"
+      identifier: "FMI"
+      name: "FMI"
+      url: "/tools/fmi/"
+      parent: "tools"
+      weight: 1
+
+    - pageRef: "SSP"
+      identifier: "SSP"
+      name: "SSP"
+      url: "/tools/ssp/"
+      parent: "tools"
+      weight: 1
+
+    - pageRef: "Modelica"
+      identifier: "Modelica"
+      name: "Modelica"
+      url: "/tools/modelica/"
+      parent: "tools"
+      weight: 1      
+          
+    - pageRef: "services"
+      identifier: "services"
+      name: "Services"
+      url: "/services/"
+      weight: 1
+
+

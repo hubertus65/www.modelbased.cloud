@@ -1,0 +1,131 @@
+---
+contactFooter: true
+---
+<!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<!--
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xrbgvgpd",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
+-->
+  <div class="container">
+  
+    <div class="col-lg-8 ">
+
+      {{< latest-news >}}
+
+      <div class="ma-logo modelica-logo masthead-logo d-none d-sm-block mx-auto mt-5 mb-5"></div>
+  
+      <h1 class="mb-4">System Modeling and Simulation - Done Right!</h1>
+  
+      <p class="lead mb-5">
+        Model Based Innovation LLC uses standards-based, proven techniques and cutting-edge knowledge for systems modeling and simulation to help 
+you to implement an efficient product design process based on right-sized processes and standards-based tools. We help you to set up or improve 
+your digital product design with a process that helps you to speed up design decisions with a lean approach to focus your modeling and simulation
+efforts on the questions that really matter.
+      </p>
+	  
+	  <img src="/images/DoubleVeeFrontpage.svg" alt="Design-Vee">
+	  
+      <h1 class="mb-4">Is your Product Design Process up to Date? </h1>    <p class="lead mb-5">
+	  Have you had struggles to stay up-to date with latest technologies to adapt your product design to ever accelerating innovation cycles?
+Model Based Innovation LLC can help to Enabling the Right Workflows to leverage modern processes and tools to bring your system design process into an efficient state:
+<div "lead mb-5">
+<ul >
+ <li> Select open standards, best practices and outputs for each design step</li>
+ <li> Crafting the digital continuity of the data between these steps </li>
+ <li> Implementing the interfaces to the tools of choice as needed</li>
+ <li> Learn from your initial journey towards model based design to adapt and improve your process.</li>
+</ul>
+ <br>  
+  <br>  
+</div>
+      <div class="d-grid gap-2 col-sm-6 col-md-5 mx-auto">
+<form
+  action="https://formspree.io/f/xrbgvgpd"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" class="btn btn-lg btn-outline-primary text-nowrap">
+  </label>
+   <br> <br>
+ <label>
+    First name:
+    <input type="name" name="name" class="btn btn-lg btn-outline-primary text-nowrap">
+   </label> 
+ <br> <br>  
+ <label>
+    Last name:
+    <input type="lastname" name="lastname" class="btn btn-lg btn-outline-primary text-nowrap">
+   </label>
+ <br> <br> 
+  <label>
+    Company:
+    <input type="company" name="company" class="btn btn-lg btn-outline-primary text-nowrap">
+   </label>    
+ <br> <br>  
+ <label>
+    Your request:
+    <textarea name="message" class="btn btn-lg btn-outline-primary"></textarea>
+  </label>
+<br>  
+ <br>  
+  <!-- your other form fields go here -->
+  <button class="btn btn-lg btn-outline-primary text-nowrap"  type="submit">Send Request</button>
+</form>	 
+</div>	 
+    <p class="lead mb-5">	  
+      </p>	  
+      <div class="d-grid gap-2 col-sm-6 col-md-5 mx-auto">
+          <a class="btn btn-lg btn-outline-primary text-nowrap" href="/services/"><i class="fa-solid fa-book me-2 "></i>Services</a>
+          <a class="btn btn-lg btn-outline-primary text-nowrap" href="/tools/"><i class="fa-solid fa-toolbox me-2"></i>Tools</a>
+          <a class="btn btn-lg btn-outline-primary text-nowrap" href="/company/"><i class="fa-solid fa-building-columns me-2"></i>Company</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<style>
+  .logo {
+    height: 8rem;
+    padding: 1rem;
+  }
+
+  .logo img {
+    max-height: 6rem;
+  }
+</style>
+
