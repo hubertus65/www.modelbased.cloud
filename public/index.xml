@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Based Innovation LLC</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Model Based Innovation LLC</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Company</title>
+      <link>http://localhost:1313/company/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/company/</guid>
+      <description>&lt;h2 id=&#34;founder-and-principal&#34;&gt;Founder and Principal&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/HTHeadshot.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Dr. &lt;strong&gt;Hubertus Tummescheit&lt;/strong&gt; is the principal and founder of Model Based Innovation LLC.  In 2004 he started Modelon AB, the first  company fully dedicated to tools and services based on Modelica and FMI. He s actively involved in the design and governance of several of the Standards of the Modelica Association. Dr. Tummescheit is the developer of  several commercial and open source Modelica Libraries in the energy and HVAC domains.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;In 2024 Dr. Tummescheit founded Model Based Innovation LLC to support companies to develop processes and best practices for model-based, digital product design through all phases of the lifecycle, from concept studies to operations, possibly with digital twins. System Modeling and Simulation are at the core of his engagements. He is committed to open standards to achieve vendor independence and long-term sustainable results.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Imprint</title>
+      <link>http://localhost:1313/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/imprint/</guid>
+      <description>&lt;h1 id=&#34;imprint&#34;&gt;Imprint&lt;/h1&gt;&#xA;&lt;p&gt;Model Based Innovation LLC is a Limited Liability Company registered in West Hartford, Connecticut.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Contact mail address: Model Based Innovation LLC, 24 Beverly Rd, CT 06119, USA&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Libraries</title>
+      <link>http://localhost:1313/libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/libraries/</guid>
+      <description>&lt;h1 id=&#34;modelica-libraries&#34;&gt;Modelica Libraries&lt;/h1&gt;&#xA;&lt;p&gt;Model Based Innovation LLC has experience with most &lt;a href=&#34;https://www.modelica.org&#34;&gt;Modelica&lt;/a&gt; Libraries currently available, both open source and commercial. We are currently in the process of setting up reseller relationships with several library vendors from the EU to resell their libraries in the Americas. Please contact us with any inquiries and stay tuned!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;h2&gt;Privacy Policy&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Personal data (usually referred to just as &#34;data&#34; below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the &#34;GDPR&#34;), &#34;processing&#34; refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/</guid>
+      <description>&lt;h1 id=&#34;services&#34;&gt;Services&lt;/h1&gt;&#xA;&lt;p&gt;The Team from MBI has over 20 years of experience in modeling and simulation, and the development model-based work flows and processes for a wide range of industries. With our wide-rangin experience, we can support you with a whole spectrum of services, from the design of your processes, teams and workflows to the details of figuring out the right abstraction for your models by applying the right math. We typically use the Systems Engineering Design-Vee, and more sepcifically, all digital, simulation based subset of it, to describe where and how we add business value to your product design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/</guid>
+      <description>&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;&#xA;&lt;p&gt;Model Based Innovation LLC has experience with most tools supporting the standards developed by the &lt;a href=&#34;https://www.modelica.org&#34;&gt;Modelica Association&lt;/a&gt;. We are currently in the process of setting up reseller relationships with several tool and library vendors from the EU to resell their tools in the Americas. Please contact us with any inquiries and stay tuned!&lt;/p&gt;&#xA;&#xD;&#xA;&lt;table&gt;&#xD;&#xA;    &lt;tr&gt;&#xD;&#xA;        &lt;td&gt;Modelica&lt;/td&gt;&#xD;&#xA;        &lt;td colspan=&#34;2&#34; align=&#34;center&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/Modelica.svg&#34; width=&#34;200&#34; alt=&#34;Modelica&#34;&gt;&lt;/td&gt;&#xD;&#xA;&#x9;&#x9;&lt;td  colspan=&#34;2&#34; &gt;A language to model and simulate multi-domain cyber physical systems in a convenient way&lt;/td&gt;&#xD;&#xA;    &lt;/tr&gt;&#xD;&#xA;    &lt;tr&gt;&#xD;&#xA;        &lt;td&gt;FMI&lt;/td&gt;&#xD;&#xA;        &lt;td colspan=&#34;2&#34; align=&#34;center&#34;&gt; &lt;a href=&#34;http://localhost:1313/tools/fmi&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/FMI.svg&#34; width=&#34;250&#34; alt=&#34;FMI&#34;&gt;&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;&#x9;&#x9;&lt;td&gt;A free standard that defines a container and interface to exchange dynamic simulation models using a combination of XML files, binaries, and C code.&lt;/td&gt;&#x9;&#x9;&#xD;&#xA;    &lt;/tr&gt;&#xD;&#xA;    &lt;tr&gt;     &#xD;&#xA;        &lt;td&gt;SSP&lt;/td&gt;&#xD;&#xA;        &lt;td colspan=&#34;2&#34; align=&#34;center&#34;&gt;&lt;a href=&#34;http://localhost:1313/tools/ssp&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/SSP.svg&#34; width=&#34;300&#34; alt=&#34;SSP&#34;&gt;&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;&#x9;&#x9;&lt;td&gt;A tool independent standard to define complete systems of one or more FMUs including its parameterization that can be transferred between simulation tools.&lt;/td&gt;&#x9;&#x9;&#xD;&#xA;    &lt;/tr&gt;&#xD;&#xA;&#xD;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>
