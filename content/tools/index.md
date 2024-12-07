@@ -10,7 +10,10 @@ Model Based Innovation LLC has experience with most tools supporting the standar
 <table>
     <tr>
         <td>Modelica</td>
-        <td colspan="2" align="center"><img src="/images/Modelica.svg" width="200" alt="Modelica"></td>
+        <td colspan="2" align="center">
+		<a href="/tools/modelica"><img src="/images/Modelica.svg" width="200" alt="Modelica"></a>
+		<!-- <div class="ma-logo modelica-logo masthead-logo"> </div> -->
+		</td>
 		<td  colspan="2" >A language to model and simulate multi-domain cyber physical systems in a convenient way</td>
     </tr>
     <tr>
