@@ -10,9 +10,22 @@ permissions:
   id-token: write
 
 jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          submodules: recursive
+      - uses: actions/configure-pages@v4
+      - uses: jakejarvis/hugo-build-action@v0.111.3
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
   deploy:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-22.04
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
