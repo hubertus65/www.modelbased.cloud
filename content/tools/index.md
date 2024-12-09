@@ -4,7 +4,7 @@ title: Tools
 
 # Tools 
 
-Model Based Innovation LLC has experience with most tools supporting the standards developed by the [Modelica Association](https://www.modelica.org). We are currently in the process of setting up reseller relationships with several tool and library vendors from the EU to resell their tools in the Americas. Please contact us with any inquiries and stay tuned! 
+Model Based Innovation LLC has experience with most tools supporting the standards developed by the [Modelica Association](https://www.modelica.org). We are currently in the process of setting up reseller relationships with several tool and library vendors from the EU to resell their tools in the Americas. We are focusing on [Modelica](/tools/modelica), [FMI](/tools/fmi), and [SSP](SSP). Please contact us with any inquiries and stay tuned! 
 
 {{<rawhtml>}}
 <table>
