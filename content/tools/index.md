@@ -1,5 +1,12 @@
 ---
+date:
+draft: false
+params:
+  author: Hubertus Tummescheit
 title: Tools
+weight: 10
+sitemap:
+  changeFreq: "weekly"
 ---
 
 # Tools 
