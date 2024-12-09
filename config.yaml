@@ -6,7 +6,7 @@ params:
   darkMode: false
   email: info@modelbased.cloud
   linkedin: hubertus-tummescheit-5220752
-menu:
+menus:
   main:
     - pageRef: "company"
       identifier: "company"
@@ -18,7 +18,7 @@ menu:
       identifier: "libraries"
       name: "Libraries"
       url: "/libraries/"
-      weight: 1      
+      weight: 2      
       
     - pageRef: "tools"
       identifier: "tools"
@@ -31,14 +31,14 @@ menu:
       name: "FMI"
       url: "/tools/fmi/"
       parent: "tools"
-      weight: 1
+      weight: 2
 
     - pageRef: "SSP"
       identifier: "SSP"
       name: "SSP"
       url: "/tools/ssp/"
       parent: "tools"
-      weight: 1
+      weight: 3
 
     - pageRef: "Modelica"
       identifier: "Modelica"
