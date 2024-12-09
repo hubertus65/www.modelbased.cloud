@@ -12,7 +12,7 @@ menus:
       identifier: "company"
       name: "Company"
       url: "/company/"
-      weight: 2
+      weight: 5
       
     - pageRef: "libraries"
       identifier: "libraries"
