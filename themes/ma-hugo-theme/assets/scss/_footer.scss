@@ -1,5 +1,5 @@
 .mbi-footer {
-    background-color: --bs-tertiary-bg-rgb;
+    background-color: rgba($ma-dark-blue, .25);
 }
 
 .contact-table { --bs-table-bg: transparent !important; }
@@ -7,6 +7,7 @@
 .mbi-footer-logo {
     height: 50px;
     filter: grayscale(100%);
+    background-color: rgba($ma-dark-blue, .25);
     opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
