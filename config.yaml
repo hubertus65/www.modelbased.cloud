@@ -9,18 +9,27 @@ params:
 ignorelogs: warning-goldmark-raw-html
 menus:
   main:
-    - pageRef: "company"
-      identifier: "company"
-      name: "Company"
-      url: "/company/"
-      weight: 5
-      
-    - pageRef: "libraries"
-      identifier: "libraries"
-      name: "Libraries"
-      url: "/libraries/"
-      weight: 2      
-      
+          
+    - pageRef: "services"
+      identifier: "services"
+      name: "Services"
+      url: "/services/"
+      weight: 1
+
+    - pageRef: "modeling"
+      identifier: "modeling"
+      name: "Modeling and Simulation"
+      url: "/services/modeling/"
+      parent: "services"
+      weight: 2
+
+    - pageRef: "process"
+      identifier: "process"
+      name: "Mastering Model Based Design"
+      url: "/services/process/"
+      parent: "services"
+      weight: 1
+
     - pageRef: "tools"
       identifier: "tools"
       name: "Tools"
@@ -47,11 +56,17 @@ menus:
       url: "/tools/modelica/"
       parent: "tools"
       weight: 1      
-          
-    - pageRef: "services"
-      identifier: "services"
-      name: "Services"
-      url: "/services/"
-      weight: 1
 
-
+    - pageRef: "libraries"
+      identifier: "libraries"
+      name: "Libraries"
+      url: "/libraries/"
+      weight: 2      
+      
+    - pageRef: "company"
+      identifier: "company"
+      name: "Company"
+      url: "/company/"
+      weight: 5
+      
+ 
