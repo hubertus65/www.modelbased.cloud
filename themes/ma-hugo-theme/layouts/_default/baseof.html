@@ -11,7 +11,7 @@
   <meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
   {{ end }}
   
-  {{ $modelica := resources.Get "scss/mbi.scss" | css.Sass (dict "outputStyle" "compressed") | fingerprint }}
+  {{ $modelica := resources.Get "scss/modelica.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <link rel="stylesheet" href="{{ $modelica.RelPermalink }}">
   <link rel="stylesheet" href="/font-awesome/css/all.css">
   
@@ -40,11 +40,14 @@
     gtag('config', '{{ $.Site.Params.gtag }}');
   </script>
   {{ end }}
-
+  
+  {{ if $.Site.Params.darkMode }}
+  <script src="/js/color-theme.js"></script>
+  {{ end }}
   
 </head>
 
-<body class="mbi-background d-flex flex-column h-100">
+<body class="d-flex flex-column h-100">
   
   <header class="navbar navbar-expand-lg ma-navbar sticky-top">
 
@@ -55,13 +58,13 @@
       <a class="navbar-brand" href="/">
         <img src="{{ $.Site.Params.logo }}" height="38" class="ms-3 me-4">
       </a>
-<!--      
+      
       <div class="d-flex">        
         <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
           <i class="fa-solid fa-ellipsis"></i>
         </button>
       </div>
--->      
+      
       <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
         
         <div class="offcanvas-header px-4 pb-0">
@@ -131,19 +134,19 @@
                 <small class="d-lg-none ms-2">YouTube</small>
               </a>
             {{ end }}
- <!--  
+
             <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
               <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
               <hr class="d-lg-none my-2 text-white-50">
             </li>
-          
+            
             <li class="nav-item col-6 col-lg-auto">
               <a class="nav-link py-2 px-0 px-lg-2" onclick="toggleTheme()" style="cursor: pointer;">
                 <i class="fa-solid fa-circle-half-stroke"></i>
                 <small class="d-lg-none ms-2">Toggle Theme</small>
               </a> 
             </li>
--->            
+            
           </li>
         </ul>
       </div>
@@ -151,14 +154,14 @@
   </nav>
 </header>
 
-<main class="flex-shrink-0 mbi-background">
+<main class="flex-shrink-0">
   
   {{- block "main" . }}
   {{- end }} 
   
 </main>
-<!-- bg-body-tertiary was bg color. mt-auto includes padding to push footer to bott-->
-<footer class="footer mbi-footer mt-auto">
+
+<footer class="footer mt-auto bg-body-tertiary">
   
   <div style="width: 100%">
     
@@ -173,32 +176,7 @@
         </div>
         
         <div class="col-lg-5 col-sm-10">
-<!--          <h3>Get in touch</h3> -->
-			<form
-			action="https://formspree.io/f/xrbgvgpd"
-			method="POST"
-			>
-			<table class="table table-borderless contact-table">
-			 <tbody>
-			  <tr>
-			  <td><label>
-				Get in touch. Your email:
-				<input type="email" name="email" class="btn btn-outline-primary text-nowrap">
-				</label></td>
-			  <td><label>
-				Your request:
-				<textarea name="message" class="btn btn-outline-primary"></textarea>
-				</label></td>
-			  </tr>
-			  <td>  <button class="btn btn-outline-primary text-nowrap"  type="submit">Send Request</button>
-			  </td>
-			  <tr>
-			  <td><a class="nav-link nav-item text-muted" href="/privacy/">Privacy</a> </td>
-			  <td> <a class="nav-link nav-item text-muted" href="/imprint/">Imprint</a></td>
-			  </tr>
-			 </tbody>
-</form>	 
-<!--
+          <h2>Get in touch</h2>
           <table class="table table-borderless contact-table">
             <tbody>
 
@@ -208,7 +186,6 @@
               </tr>
             </tbody>
           </table>
-			-->		  
         </div>
         
       </div>
@@ -216,7 +193,7 @@
     </div>
     
   </div>
-<!--  
+  
   <div style="width: 100%" class="">
     <div class="container navbar justify-content-center">
       <ul class="nav">
@@ -234,7 +211,6 @@
       </ul>
     </div>
   </div>
--->  
 </footer>
 
 </body>
