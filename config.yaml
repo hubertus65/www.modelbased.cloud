@@ -6,7 +6,6 @@ params:
   darkMode: false
   email: info@modelbased.cloud
   linkedin: hubertus-tummescheit-5220752
-ignorelogs: warning-goldmark-raw-html
 menus:
   main:
     - pageRef: "company"

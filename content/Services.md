@@ -22,8 +22,6 @@ The Team from MBI has over 20 years of experience in modeling and simulation, an
 ## Standards
 It is our strong conviction, that our customers will do better long-term if their processes and tool chains are based on open standards. Standards make sure that your valuable know-how is not locked up inside a proprietary format, giving you the freedom to choose the best tool for your purpose. We focus on the standards of the Modelica Association with the [Modelica Language](https://modelica.org/language/), commercial and open source [Modelica Libraries](https://modelica.org/libraries/), the [FMI-Standard](https://fmi-standard.org/), and the [SSP-Standard](https://ssp-standard.org/) as the main ones we are supporting. 
 
-For more info, please fill in the [contact form](/Company/).
-<!--
 {{<rawhtml>}}
  <div class="d-grid gap-2 col-sm-6 col-md-5 mx-auto">
 <form
@@ -56,11 +54,11 @@ For more info, please fill in the [contact form](/Company/).
   </label>
 <br>  
  <br>  
+  <!-- your other form fields go here -->
   <button class="btn btn-lg btn-outline-primary text-nowrap"  type="submit">Send Request</button>
 </form>	 
 </div>	
 {{</rawhtml>}}
--->
 
 <!--
  |     |     |     |

@@ -7,3 +7,11 @@
     max-width: 14em; 
     margin: auto;
 }
+
+@include color-mode(dark) {
+    
+    .ma-quote-logo {
+        filter: invert(1) grayscale(1);
+    }
+    
+}

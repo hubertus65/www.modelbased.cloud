@@ -1,22 +1,5 @@
 html {
     scroll-padding-top: 70px;
-
-}
-
-.mbi-background {
-    background-image: linear-gradient(rgba($ma-dark-blue, .3), rgba($ma-dark-blue, .1));
-	background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; /* Ensures the gradient spans the full height of the viewport */
-    margin: 0; /* Removes default body margin */;
-}
-
-
-.mbi-simple-bg-light {
-    background-color: rgba($ma-dark-blue, .1);
-}
-.mbi-simple-bg {
-    background-color: rgba($ma-dark-blue, .25);
 }
 
 main {
@@ -36,7 +19,7 @@ main {
         padding-top: 50px;
         max-width: 992px;
     }
-    background-image: linear-gradient(rgba($ma-dark-blue, .3), rgba($ma-dark-blue, .1));	
+
 }
 
 .ma-faq h2 {
