@@ -159,7 +159,7 @@
    </div>
 </main>
 
-<footer class="footer mt-auto bg-body-tertiary">
+<footer class="footer mbi-footer mt-auto">
   
   <div style="width: 100%">
     
@@ -174,16 +174,32 @@
         </div>
         
         <div class="col-lg-5 col-sm-10">
-          <h2>Get in touch</h2>
-          <table class="table table-borderless contact-table">
-            <tbody>
+<!--          <h3>Get in touch</h3> -->
+			<form
+			action="https://formspree.io/f/xrbgvgpd"
+			method="POST">
+			
+				<table class="table table-borderless contact-table">
+				<tbody>
+			  <tr>
+			  <td><label>
+				Get in touch. Your email:
+				<input type="email" name="email" class="btn btn-outline-primary text-nowrap">
+				</label></td>
+			  <td><label>
+				Your request:
+				<textarea name="message" class="btn btn-outline-primary"></textarea>
+				</label></td>
+			  </tr>
+			  <td>  <button class="btn btn-outline-primary text-nowrap"  type="submit">Send Request</button>
+			  </td>
+			  <tr>
+			  <td><a class="nav-link nav-item text-muted" href="/privacy/">Privacy</a> </td>
+			  <td> <a class="nav-link nav-item text-muted" href="/imprint/">Imprint</a></td>
+			  </tr>
+				</tbody>
+			 </form>	 
 
-              <tr>
-                <td><span class="text-muted">E-Mail</span></td>
-                <td><a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a></td>
-              </tr>
-            </tbody>
-          </table>
         </div>
         
       </div>
@@ -192,23 +208,6 @@
     
   </div>
   
-  <div style="width: 100%" class="">
-    <div class="container navbar justify-content-center">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link text-muted" href="/privacy/">Privacy</a>
-        </li>
-        {{ if isset $.Site.Params "gtag" }}
-        <li class="nav-item">
-          <a class="nav-link text-muted" id="open_preferences_center" href="#">Cookie Preferences</a>
-        </li>
-        {{ end }}
-        <li class="nav-item">
-          <a class="nav-link text-muted" href="/imprint/">Imprint</a>
-        </li>
-      </ul>
-    </div>
-  </div>
 </footer>
 
 </body>
