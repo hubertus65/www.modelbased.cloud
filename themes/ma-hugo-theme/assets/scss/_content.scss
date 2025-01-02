@@ -4,7 +4,7 @@ html {
 }
 
 .mbi-background {
-    background-image: linear-gradient(rgba($ma-dark-blue, .3), rgba($ma-dark-blue, .1));
+    background-image: linear-gradient(rgba($ma-dark-blue, .3), rgba($ma-dark-blue, .0));
 	background-size: cover;
     background-repeat: no-repeat;
     height: 100%; /* Ensures the gradient spans the full height of the viewport */
@@ -16,7 +16,7 @@ html {
     background-color: rgba($ma-dark-blue, .1);
 }
 .mbi-simple-bg {
-    background-color: rgba($ma-dark-blue, .25);
+    background-color: rgba($ma-dark-blue, .1);
 }
 
 main {
@@ -36,7 +36,7 @@ main {
         padding-top: 50px;
         max-width: 992px;
     }
-    background-image: linear-gradient(rgba($ma-dark-blue, .3), rgba($ma-dark-blue, .1));	
+//    background-image: linear-gradient(rgba($ma-dark-blue, .2), rgba($ma-dark-blue, .0));	
 }
 
 .ma-faq h2 {
