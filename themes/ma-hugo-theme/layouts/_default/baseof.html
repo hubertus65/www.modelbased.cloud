@@ -19,6 +19,7 @@
   <link rel="icon" href="{{ $.Site.Params.favicon }}">
   {{ end }}
   
+
   {{ $bootstrapjs := resources.Get "bootstrap/dist/js/bootstrap.bundle.js" | fingerprint }}
   <script src="{{ $bootstrapjs.RelPermalink }}"></script>
   

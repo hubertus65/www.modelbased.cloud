@@ -1,0 +1,6 @@
+{{ $images := resources.Match (.Get "pattern") }}
+{{ range $images }}
+  {{ $resized := .Resize (.Get "size") }}
+  <img src="{{ $resized.RelPermalink }}" alt="Screenshot">
+{{ end }}  
+  

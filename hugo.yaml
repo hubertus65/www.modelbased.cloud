@@ -8,7 +8,13 @@ params:
   linkedin: hubertus-tummescheit-5220752
 markup:
   goldmark:
-    ignoreLogs: warning-goldmark-raw-html
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: true
+      ignoreLogs: warning-goldmark-raw-html
 menus:
   main:
     - pageRef: "company"
