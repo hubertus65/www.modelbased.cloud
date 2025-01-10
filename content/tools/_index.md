@@ -11,7 +11,7 @@ sitemap:
 
 # Tools 
 
-Model Based Innovation LLC has experience with most tools supporting the standards developed by the [Modelica Association](https://www.modelica.org). We are currently in the process of setting up reseller relationships with several tool and library vendors from the EU to resell their tools in the Americas. We are focusing on [Modelica](/tools/modelica), [FMI](/tools/fmi), and [SSP](SSP). Please contact us with any inquiries and stay tuned! 
+At Model Based Innovation LLC, we are deeply convinced that open standards are key to achieving smooth collaboration through a Digital thread via open standards. MBI LLC has experience with most tools supporting the standards developed by the [Modelica Association](https://www.modelica.org). We are currently in the process of setting up reseller relationships with several tool and library vendors from the EU to resell their tools in the Americas. We are focusing on the [Modelica](/tools/modelica) language for modeling, the Functional Mockup Interface [FMI](/tools/fmi) for simulation, and System Structure and Parameterization [SSP](SSP) for system integration and system level simulation. Some tools support all three standards, but often specialized tools are the preferred choice. All Modelica tools support FMI though. Please contact us with any inquiries and stay tuned! 
 
 {{<rawhtml>}}
 <table>

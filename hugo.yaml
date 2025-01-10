@@ -37,29 +37,29 @@ menus:
       weight: 1
 
     - pageRef: "Overview"
-      identifier: "Overview"
-      name: "Overview"
+      identifier: "Open Standards"
+      name: "Open Standards"
       url: "/tools/"
       parent: "tools"
       weight: 1
 
     - pageRef: "Modelica"
       identifier: "Modelica"
-      name: "Modelica"
+      name: "Modeling"
       url: "/tools/modelica/"
       parent: "tools"
       weight: 2      
   
     - pageRef: "FMI"
       identifier: "FMI"
-      name: "FMI"
+      name: "Simulation"
       url: "/tools/fmi/"
       parent: "tools"
       weight: 3
 
     - pageRef: "SSP"
       identifier: "SSP"
-      name: "SSP"
+      name: "System Itegration"
       url: "/tools/ssp/"
       parent: "tools"
       weight: 4
