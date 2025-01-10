@@ -1,0 +1,7 @@
+<div class="block-left-aligned">
+  {{ with .Get "title" }}
+    <div class="h5">{{ . }}</div>
+  {{ end }}  
+  {{ .Inner }}
+</div>
+

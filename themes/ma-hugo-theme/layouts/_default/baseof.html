@@ -19,6 +19,7 @@
   <link rel="icon" href="{{ $.Site.Params.favicon }}">
   {{ end }}
   
+
   {{ $bootstrapjs := resources.Get "bootstrap/dist/js/bootstrap.bundle.js" | fingerprint }}
   <script src="{{ $bootstrapjs.RelPermalink }}"></script>
   
@@ -43,7 +44,7 @@
   
 </head>
 
-<body class="d-flex mbi-simple-bg-light flex-column h-100">
+<body class="d-flex mbi-simple-bg-light flex-column">
   
   <header class="navbar navbar-expand-lg ma-navbar sticky-top">
 
@@ -173,34 +174,34 @@
         
         <div class="col-lg-5 col-sm-10">
 <!--          <h3>Get in touch</h3> -->
-			<form
-			action="https://formspree.io/f/xrbgvgpd"
-			method="POST">
 			
 				<table class="table table-borderless contact-table">
 				<tbody>
 			  <tr>
-			  <td><label>
-				Please get in touch. Email:
-				<input type="email" name="email" class="btn btn-outline-primary text-nowrap">
-				</label></td>
-			  <td> <br>  
-			  <button class="btn btn-outline-primary text-nowrap"  type="submit">Send Request</button>
+			  <td>
+				<p>Please get in touch. &nbsp
+					<span class="btn-outline-primary text-nowrap">
+				    <a href="https://www.modelbased.cloud/company/"  class="btn btn-outline-primary text-nowrap rounded-5 masthead-notice"> Contact us </a>
+					</span>
+					</p>
+                </td>
+			  <td>
+					<span class="btn-outline-primary text-nowrap">
+						<a href="https://outlook.office365.com/owa/calendar/MBIIntroductionMeeting@modelbased.cloud/bookings/" class="btn btn-outline-primary text-nowrap rounded-5 masthead-notice">Book a Meeting <i class="fa-solid fa-arrow-right ms-1"></i></a>
+					</span>
+				</a>			  
 			  </td>
 			  </tr>
-			  <td><label>
-				Your request:<br>
-				<textarea name="message" class="btn btn-outline-primary"></textarea>
-				</label></td>			  
-			  <td><br><a class="nav-link nav-item text-muted" href="/privacy/">Privacy</a> 
-			  <br><a class="nav-link nav-item text-muted" href="/imprint/">Imprint</a>
+			  <tr>		  
+			  <td><a class="nav-link nav-item text-muted" href="/privacy/">Privacy</a> </td>	
+			  <td><a class="nav-link nav-item text-muted" href="/imprint/">Imprint</a> </td>	
+			  </tr>
 			  </td>
 
 			  <!-- <tr> -->
 			  <!-- <td> </td> -->
 			  <!-- </tr> -->
-				</tbody>
-			 </form>	 
+				</tbody>	 
 
         </div>
         

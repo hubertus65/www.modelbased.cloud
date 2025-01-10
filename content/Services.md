@@ -22,46 +22,9 @@ The Team from MBI has over 20 years of experience in modeling and simulation, an
 ## Standards
 It is our strong conviction, that our customers will do better long-term if their processes and tool chains are based on open standards. Standards make sure that your valuable know-how is not locked up inside a proprietary format, giving you the freedom to choose the best tool for your purpose. We focus on the standards of the Modelica Association with the [Modelica Language](https://modelica.org/language/), commercial and open source [Modelica Libraries](https://modelica.org/libraries/), the [FMI-Standard](https://fmi-standard.org/), and the [SSP-Standard](https://ssp-standard.org/) as the main ones we are supporting. 
 
-For more info, please fill in the [contact form](/Company/) or [book a meeting](https://outlook.office365.com/owa/calendar/MBIIntroductionMeeting@modelbased.cloud/bookings/).
 
-<!--
-{{<rawhtml>}}
- <div class="d-grid gap-2 col-sm-6 col-md-5 mx-auto">
-<form
-  action="https://formspree.io/f/xrbgvgpd"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email" class="btn btn-lg btn-outline-primary text-nowrap">
-  </label>
-   <br> <br>
- <label>
-    First name:
-    <input type="name" name="name" class="btn btn-lg btn-outline-primary text-nowrap">
-   </label> 
- <br> <br>  
- <label>
-    Last name:
-    <input type="lastname" name="lastname" class="btn btn-lg btn-outline-primary text-nowrap">
-   </label>
- <br> <br> 
-  <label>
-    Company:
-    <input type="company" name="company" class="btn btn-lg btn-outline-primary text-nowrap">
-   </label>    
- <br> <br>  
- <label>
-    Your request:
-    <textarea name="message" class="btn btn-lg btn-outline-primary"></textarea>
-  </label>
-<br>  
- <br>  
-  <button class="btn btn-lg btn-outline-primary text-nowrap"  type="submit">Send Request</button>
-</form>	 
-</div>	
-{{</rawhtml>}}
--->
+For more info, please fill in the [contact form](/Company/) or {{< appointment >}}
+
 
 <!--
  |     |     |     |

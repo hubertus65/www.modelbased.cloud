@@ -1,0 +1,25 @@
+<!-- usage in markdown
+
+---
+title: "Dynamic Content Blocks"
+blocks:
+  - icon: "/images/icon1.png"
+    alt: "Icon 1"
+    text: "Text for block 1."
+  - icon: "/images/icon2.png"
+    alt: "Icon 2"
+    text: "Text for block 2."
+  - icon: "/images/icon3.png"
+    alt: "Icon 3"
+    text: "Text for block 3."
+---
+
+old:
+  {{ range .Params.blocks }}
+    <div class="content-block">
+      <img src="{{ .icon }}" alt="{{ .alt }}" class="content-icon">
+      <p class="content-text">{{ .text }}</p>
+    </div>
+  {{ end }}
+
+-->

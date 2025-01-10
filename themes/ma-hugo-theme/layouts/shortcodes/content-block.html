@@ -1,0 +1,8 @@
+<div class="content-block">
+  <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" }}" class="content-icon">
+  {{ with .Get "title" }}
+    <div class="h5">{{ . }}</div>
+  {{ end }}  
+  <p class="content-text">{{ .Inner }}</p>
+</div>
+

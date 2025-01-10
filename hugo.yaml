@@ -1,14 +1,21 @@
 baseURL: https://modelbased.cloud
 title: Model Based Innovation LLC
 theme: ma-hugo-theme
+ignoreLogs:
+  - warning-goldmark-raw-html
 params:
   logo: /images/LogoWhiteFont.svg
   darkMode: false
   email: info@modelbased.cloud
   linkedin: hubertus-tummescheit-5220752
-markup:
+markup:  
   goldmark:
-    ignoreLogs: warning-goldmark-raw-html
+    renderer:
+      unsafe: true  
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
 menus:
   main:
     - pageRef: "company"
@@ -28,28 +35,35 @@ menus:
       name: "Tools"
       url: "/tools/"
       weight: 1
- 
-    - pageRef: "FMI"
-      identifier: "FMI"
-      name: "FMI"
-      url: "/tools/fmi/"
-      parent: "tools"
-      weight: 2
 
-    - pageRef: "SSP"
-      identifier: "SSP"
-      name: "SSP"
-      url: "/tools/ssp/"
+    - pageRef: "Overview"
+      identifier: "Overview"
+      name: "Overview"
+      url: "/tools/"
       parent: "tools"
-      weight: 3
+      weight: 1
 
     - pageRef: "Modelica"
       identifier: "Modelica"
       name: "Modelica"
       url: "/tools/modelica/"
       parent: "tools"
-      weight: 1      
-          
+      weight: 2      
+  
+    - pageRef: "FMI"
+      identifier: "FMI"
+      name: "FMI"
+      url: "/tools/fmi/"
+      parent: "tools"
+      weight: 3
+
+    - pageRef: "SSP"
+      identifier: "SSP"
+      name: "SSP"
+      url: "/tools/ssp/"
+      parent: "tools"
+      weight: 4
+        
     - pageRef: "services"
       identifier: "services"
       name: "Services"

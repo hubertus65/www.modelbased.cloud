@@ -1,0 +1,8 @@
+<div class="block-left-aligned">
+  <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" }}" class="feature-icon" width="42">
+  {{ with .Get "title" }}
+    <div class="h5">{{ . }}</div>
+  {{ end }}  
+  <p class="content-text">{{ .Inner }}</p>
+</div>
+

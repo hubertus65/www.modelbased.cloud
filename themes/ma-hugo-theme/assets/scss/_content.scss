@@ -61,3 +61,90 @@ h1, h2, h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.multi-column-list {
+  column-count: 3; /* Number of columns */
+  column-gap: 20px; /* Spacing between columns */
+  list-style-type: disc; /* Optional: list style */
+  padding-right: 10px;
+  margin-left: 1rem;
+}
+
+.multi-column-list li {
+  break-inside: avoid; /* Prevent items from breaking between columns */
+}
+@media (max-width: 768px) {
+  .multi-column-list {
+    column-count: 2; /* Fewer columns for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .multi-column-list {
+    column-count: 1; /* Single column for mobile devices */
+  }
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center the content */
+  text-align: center; /* Center the text */
+  gap: 10px; /* Space between the icon and the text */
+}
+.block-left-aligned {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: left; /* left align items horizontally */
+  justify-content: top; /* top-align the content */
+  text-align: left; /* Center the text */
+}
+
+.content-icon {
+  width: 120px; /* Icon size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.content-text {
+  margin: 0; /* Remove any default margin */
+}
+
+@media (max-width: 768px) {
+  .content-block {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align text and icon to the start */
+  }
+// below not much tested  
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 10px; /* Space between blocks */
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
+
+.feature_icon {
+  align-items: left; /* top align items horizontally */
+  justify-content: left; /* top-align the content */
+  margin-bottom: 10px;
+}  
+
+.icon-container {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.icon {
+  display: inline-block;
+  width: 42px; /* Use the width specified in the shortcode */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 0px; /* Optional: Add space if used with text */
+}
