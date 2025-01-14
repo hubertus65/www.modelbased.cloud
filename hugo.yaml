@@ -5,6 +5,7 @@ ignoreLogs:
   - warning-goldmark-raw-html
 params:
   logo: /images/LogoWhiteFont.svg
+  favicon: /images/MBI-favicon.svg  
   darkMode: false
   email: info@modelbased.cloud
   linkedin: hubertus-tummescheit-5220752
