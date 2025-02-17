@@ -60,7 +60,7 @@ menus:
 
     - pageRef: "SSP"
       identifier: "SSP"
-      name: "System Itegration"
+      name: "System Integration"
       url: "/tools/ssp/"
       parent: "tools"
       weight: 4
