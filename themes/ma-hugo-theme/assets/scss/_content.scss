@@ -93,6 +93,15 @@ h1, h2, h3 {
   text-align: center; /* Center the text */
   gap: 10px; /* Space between the icon and the text */
 }
+.content-left-block {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center the content */
+  text-align: left; /* Center the text */
+  gap: 10px; /* Space between the icon and the text */
+}
+
 .block-left-aligned {
   display: flex;
   flex-direction: column; /* Stack items vertically */

@@ -19,23 +19,51 @@ markup:
       wrapStandAloneImageWithinParagraph: false
 menus:
   main:
+        
+    - pageRef: "services"
+      identifier: "services"
+      name: "Services"
+      url: "/services/"
+      weight: 1
+
     - pageRef: "company"
       identifier: "company"
       name: "Company"
       url: "/company/"
-      weight: 5
+      weight: 8
       
     - pageRef: "libraries"
       identifier: "libraries"
       name: "Libraries"
       url: "/libraries/"
-      weight: 2      
+      weight: 3      
       
+    - pageRef: "MLibraries"
+      identifier: "Modelica Libraries"
+      name: "Modelica Libraries"
+      url: "/libraries/"
+      parent: "libraries"
+      weight: 1
+
+    - pageRef: "HVAC"
+      identifier: "HVAC"
+      name: "XRG HVAC Library"
+      url: "/libraries/hvac/"
+      parent: "libraries"
+      weight: 2   
+
+    - pageRef: "PSL"
+      identifier: "PSL"
+      name: "Process Systems Library"
+      url: "/libraries/psl/"
+      parent: "libraries"
+      weight: 3   
+
     - pageRef: "tools"
       identifier: "tools"
       name: "Tools"
       url: "/tools/"
-      weight: 1
+      weight: 2
 
     - pageRef: "Overview"
       identifier: "Open Standards"
@@ -64,11 +92,38 @@ menus:
       url: "/tools/ssp/"
       parent: "tools"
       weight: 4
-        
-    - pageRef: "services"
-      identifier: "services"
-      name: "Services"
-      url: "/services/"
+
+    - pageRef: "partner"
+      identifier: "partner"
+      name: "Partners"
+      url: "/partner/"
+      weight: 4
+
+    - pageRef: "MyPartners"
+      identifier: "AllPartners"
+      name: "Our Partners"
+      url: "/partner/"
+      parent: "partner"
       weight: 1
 
+    - pageRef: "XRG"
+      identifier: "XRG"
+      name: "XRG"
+      url: "/partner/xrg/"
+      parent: "partner"
+      weight: 4
+      
+    - pageRef: "TLKE"
+      identifier: "TLKE"
+      name: "TLK-Energy"
+      url: "/partner/tlke/"
+      parent: "partner"
+      weight: 2  
 
+    - pageRef: "TLKT"
+      identifier: "TLKT"
+      name: "TLK-Thermo"
+      url: "/partner/tlkt/"
+      parent: "partner"
+      weight: 3        
+      

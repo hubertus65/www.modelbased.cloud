@@ -1,0 +1,13 @@
+{{/* Shortcode: two-column table with image and text */}}
+{{/* Usage: {{< TwoCTable image="path/to/icon.png" text="Your text here" >}} */}}
+
+<table>
+<tr>
+  <td style="width:150px; text-align: center; vertical-align: middle;">
+    <img src="{{ .Get "image" }}" alt="icon" style="width: 150px;" />
+  </td>
+  <td style="vertical-align: middle; padding-left: 10px;">
+    {{ .Get "text" }}
+  </td>
+</tr>
+</table>

@@ -1,0 +1,11 @@
+<!--this can not be used on an svg! height doesn't exist -->
+{{ $image := resources.Get (.Get "src") }}
+{{ $small := $image.height "200x" }}
+{{ $medium := $image.height "300x" }}
+{{ $large := $image.height "400x" }}
+
+<picture>
+  <source srcset="{{ $small.RelPermalink }}" media="(max-width: 200px)">
+  <source srcset="{{ $medium.RelPermalink }}" media="(max-width: 300px)">
+  <img src="{{ $large.RelPermalink }}" alt="{{ .Params.alt }}">
+</picture>

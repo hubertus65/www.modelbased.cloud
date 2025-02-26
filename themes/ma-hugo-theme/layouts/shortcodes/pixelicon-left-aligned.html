@@ -1,0 +1,20 @@
+{{ $image := resources.Get (.Get "src") }}
+{{ $small := $image.Resize "400x" }}
+{{ $medium := $image.Resize "600x" }}
+{{ $large := $image.Resize "800x" }}
+
+<div>
+  <table>
+    <tr>
+	<td>  
+		<picture>
+		<source srcset="{{ $small.RelPermalink }}" media="(max-width: 400px)">
+		<source srcset="{{ $medium.RelPermalink }}" media="(max-width: 600px)">
+		<img src="{{ $large.RelPermalink }}" alt="{{ .Params.alt }}">
+		</picture>
+	</td>
+	<td> <p class="content-text">{{ .Inner | markdownify }}</p> </td>
+	</tr>
+  </table>	
+</div>
+

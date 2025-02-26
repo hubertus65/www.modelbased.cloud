@@ -1,0 +1,11 @@
+{{ $image := resources.Get (.Get "src") }}
+{{ $small := $image.Resize "50x" }}
+{{ $medium := $image.Resize "100x" }}
+{{ $large := $image.Resize "200x" }}
+
+
+<picture>
+  <source srcset="{{ $small.RelPermalink }}" media="(max-width: 200px)">
+  <source srcset="{{ $medium.RelPermalink }}" media="(max-width: 300px)">
+  <img src="{{ $large.RelPermalink }}" alt="{{ .Params.alt }}">
+</picture>

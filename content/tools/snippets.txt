@@ -1,0 +1,11 @@
+<!--
+{{< content-container >}}
+{{% block-left-aligned %}}
+{{< responsive-image src="/images/Modelica.png" alt="Modelica Icon" >}}
+{{% /block-left-aligned %}}
+
+{{< block-left-aligned >}}
+A language to model and simulate multi-domain cyber physical systems in a convenient way. MAybe this is just too little text for a block? Who knows, blabla bla.
+{{< /block-left-aligned >}}
+{{< /content-container >}}
+-->
