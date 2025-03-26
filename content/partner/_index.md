@@ -10,7 +10,10 @@ sitemap:
 
 # Our Partners
 
-MBI LLC has partnered with several German companies in the Modelica-space, that all have specialized in certain application areas for which they offer outstanding Modelica Libraries. 
+MBI LLC has partnered with several European companies in the Modelica-space, that all have specialized in certain application areas for which they offer outstanding Modelica related tools and Libraries. 
+
+#### [Modelon AB](modelon)
+ {{< TwoC-Table image="/images/modelon-logo.webp" text="Modelon offers systems modeling and simulation software that accelerates product innovation, development, and operations in a range of industries. Modelon is revolutionizing the engineering design industry by offering technologies and services that enable customers to leverage system simulation. Modelon’s flagship product, Modelon Impact, is a cloud system simulation platform that helps engineers virtually design, analyze, and simulate physical systems. Our team brings deep industry expertise and is dedicated to guiding our customers in creating innovative technologies at their respective organizations. Headquartered in Lund, Sweden, Modelon is a global company with offices in Germany, India, Japan, Prague, and the United States. We believe that system simulation should be accessible to every engineer and are dedicated to being an open-standard platform company.  " >}} 
 
 #### [XRG Simulation GmbH](xrg)
  {{< TwoC-Table image="/images/XRGlogo.webp" text="XRG Simulation specializes in calculating the behavior of complex energy systems under dynamic and steady-state conditions. Modeling and simulation using numerical methods are time- and cost-effective, enabling precise calculations of complex systems. In addition, XRG Simulation develops complementary tools such as control and optimization programs, co-simulations, extensive databases, and conducts studies and mathematical optimizations for its clients. MBI collaborates with XRG to bring their products to the US market." >}} 

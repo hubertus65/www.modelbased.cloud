@@ -48,6 +48,11 @@ code {
     color: $red;
 }
 
+centered {
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center the content */
+}
+
 table {
     margin-bottom: 2rem;
 }
