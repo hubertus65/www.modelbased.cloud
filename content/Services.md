@@ -17,6 +17,20 @@ The Team from MBI has over 20 years of experience in modeling and simulation, an
  - Building web-apps and extensions on top of Modelon Impact
 
  ![Design-Vee](/images/DoubleVeeFrontpage.svg)
+ 
+## Training
+
+MBI provides training for Modelica, Model Based Design, all Modelica Association open standards, and for Modelon Impact including most of the Modelon Impact Libraries. The training can be adapted to your team and its maturity on their journey to an efficient team in model based design. 
+
+ - Basic Modelica Training
+ - Advanced Modelica Training
+ - Thermofluid Modeling
+ - HVAC Sytem Modeling 
+ - Modeling for Control and Control Design with Modelon Impact
+ - Best practices for Equation Based Modeling 
+ - Designing and detailing workflows and best practices for Model Based Design
+ - FMI, the Functional Mockup Interface, and how to effectivly use FMI in collaborative work flows 
+ - Tailored courses for research projects using Modelica to make rapid progress early in fast-paced research projects
 
 
 ## Standards

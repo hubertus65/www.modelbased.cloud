@@ -14,18 +14,22 @@ At Model Based Innovation LLC, we are deeply convinced that open standards are k
 
 The Modelica Association has created a set of open-source, free to implement standards for authoring, exchanging and integrating system simulation models that are well-tested and proven for robust industrial usage through decades of intensive use in the automotive, aerospace and energy industries. 
 
-{{% icon-left-aligned icon="/images/Modelica.svg" %}}
+{{% icon-left-aligned icon="/images/Modelica.svg" size="600px" %}}
 
-A language to model and simulate multi-domain cyber physical systems in a standard way, supported by all major CAE vendors. The [Modelica Website](https://modelica.org) has all the resources and details.
+[Modelica](https://modelica.org) is a language to model and simulate multi-domain cyber physical systems in a standard way, supported by all major CAE vendors. MBI solutions for modeling and simulation and optimization are based on Modelica. Modelica is an independent open-standard for modeling engineering systems. With this open standard, users are enabled to exchange models with any Modelica-compliant tool – utilizing the models for simulation and analysis without the need of a specific tool.
 
-{{% /icon-left-aligned %}}
-
-{{% icon-left-aligned icon="/images/FMI_bare.svg" %}}
-
-FMI, the [Functional Mock-up Interface](https://fmi-standard.org), is a free standard that defines a container and an API to interact with dynamic simulation models using a combination of XML files, binaries, and C code. 
+MBI is committed to delivering on the promise of open-standard technologies –  enabling any organization to effectively leverage common code system simulation solutions to design and operate their technical systems. MBI will continue to prove and provide excellence in solutions for simulation based systems design needed to serve any client.
+ The [Modelica Website](https://modelica.org) has all the resources and details.
 
 {{% /icon-left-aligned %}}
-{{% icon-left-aligned icon="/images/SSP_bare.svg" %}}
+
+{{% icon-left-aligned icon="/images/FMI.svg" size="400" %}}
+
+The [Functional Mock-up Interface](https://fmi-standard.org) is a tool independent standard to support both model exchange and co-simulation of dynamic models. FMI is a free standard that defines a container and an API to interact with dynamic simulation models using a combination of XML files, binaries, and C code. FMI is a core component for MBI in providing value to our customers. With FMI, plant models developed by experts in advanced simulation tools can be reused across the organization by teams using standard desktop tools. MBI provides the FMI Toolbox and FMI Toolbox Coder Add-On. MBI also develops customized solutions to integrate FMI seamlessly into any workflow.
+
+
+{{% /icon-left-aligned %}}
+{{% icon-left-aligned icon="/images/SSP.svg" %}}
 
 SSP, [System Structure and Parameterization](https://ssp-standard.org), is a tool independent standard to define complete systems of one or more FMUs including its parameterization that can be transferred between simulation tools.
 
