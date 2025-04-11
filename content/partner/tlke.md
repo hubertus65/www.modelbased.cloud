@@ -8,17 +8,8 @@ weight: 10
 sitemap:
   changeFreq: "monthly"
 ---
-{{< content-container >}}
-{{% block-left-aligned %}}
-{{< responsive-image src="/images/TLK_Energy_Logo-dark_converted.webp" alt="TLK Energy" >}}
-{{% /block-left-aligned %}}
-{{< block-left-aligned >}}
+{{< logo-centered image="/images/TLK_Energy_Logo-dark_converted.webp">}}
 
-{{< /block-left-aligned >}}
-{{< block-left-aligned >}}
-
-{{< /block-left-aligned >}}
-{{< /content-container >}}
 {{< content-container >}}
 {{% block-left-aligned %}}
 <br>

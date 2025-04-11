@@ -1,7 +1,7 @@
 <div class="icon-left-aligned">
   <table>
     <tr>
-	<td>  <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" }}" class="feature-icon" width="200"> </td>
+	<td>  <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" }}" class="feature-icon" width="{{ .Get "size" }}"> </td>
 	<td> <p class="content-text">{{ .Inner | markdownify }}</p> </td>
 	</tr>
   </table>	
