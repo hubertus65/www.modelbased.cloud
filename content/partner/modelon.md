@@ -23,7 +23,7 @@ Modelon and MBI are committed to delivering on the promise of open-standard tech
 
 {{% /icon-left-aligned %}}
 
-{{% icon-left-aligned icon="/images/FMI.svg" size="900px" %}}
+{{% icon-left-aligned icon="/images/FMI.svg" size="600px" %}}
 
 The [Functional Mock-up Interface](https://fmi-standard.org) is a tool independent standard to support both model exchange and co-simulation of dynamic models. FMI is a free standard that defines a container and an API to interact with dynamic simulation models using a combination of XML files, binaries, and C code. FMI is a core component for Modelon and MBI in providing value to our customers. With FMI, plant models developed by experts in advanced simulation tools can be reused across the organization by teams using standard desktop tools. Modelon develops the FMI Toolbox and FMI Toolbox Coder Add-On. In collaboration with Modelon, MBI also develops customized solutions to integrate FMI seamlessly into any workflow.
 
