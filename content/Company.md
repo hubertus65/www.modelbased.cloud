@@ -2,6 +2,10 @@
 title: Company
 ---
 
+## Model Based Innovation LLC
+
+Model Based Innovation LLC (MBI) offers consulting and software products that accelerate product innovation, development, and operations in a range of industries. MBI was born of the deep conviction that openness and open standards are the best long-term solution for a vibrant culture of innovation in a company, avoiding vendor-lock-in and protecting your company’s investment in tool-independence skills. MBI works at the interface of systems engineering and system simulation, providing you with unique know-how not just in modeling in simulation, but helping you to use digital development workflows that maximize your development speed. Model Based Design, and Systems Engineering adapted to your company size. Our expertise spans the range from early system design and architecture exploration to commissioning and operations. We offer PhD-level expertise in controls engineering and modeling and simulation, and years of experience in systems engineering to blend these methods with your company’s specific DNA and your existing expertise to create a modern, efficient product design organization.    
+
 ## Founder and Principal
 
 |     |     |

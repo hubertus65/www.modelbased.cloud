@@ -2,7 +2,9 @@
 title: Modelon Impact
 ---
 
-## Turn simulation results into business decisions with confidence
+{{< logo-centered image="/images/impact-logo-black-svg.svg" >}}
+
+# Turn simulation results into business decisions with confidence
 
 {{< block-centered title="Meet Modelon Impact – a cloud platform for virtually designing, simulating, and analyzing industrial systems.">}}
 
@@ -11,7 +13,7 @@ title: Modelon Impact
 <br>
 {{< /block-centered >}}
 
-## System Simulation in the cloud   
+# System Simulation in the cloud   
 
 {{< content-container >}}
 {{% block-left-aligned %}}
@@ -28,8 +30,6 @@ At your organization, it’s important for your engineering teams to work with s
 
 {{% /block-left-aligned %}}
 {{< /content-container >}}
-
-{{< logo-centered image="/images/impact-logo-black-svg.svg" >}}
 
 {{< text-centered text="Your Go-To Tool for System Feasibility and Design" >}} 
 
