@@ -12,8 +12,18 @@ sitemap:
 
 MBI LLC has partnered with several European companies in the Modelica-space, that all have specialized in certain application areas for which they offer outstanding Modelica related tools and Libraries. 
 
+#### [Excellent Solutions](https://www.exxcellent.de/)
+
+ {{% TwoC-Table image="/images/exxcellent_logo.webp" text="For over 20 years, eXXcellent solutions has stood for the development of innovative software solutions that sustainably optimize processes in companies. With in-depth expertise and a clear focus on the needs of their customers, they create customized solutions that pave the way for efficiency and success. With [orchideo |easySSP](https://www.easy-ssp.com/), a Software-as-a-Service (SaaS), they have developed a solution that supports companies in taking their simulation processes to a new level. The platform uses open standards such as [SSP](https://ssp-standard.org/) (System Structure and Parameterization), [SSP Traceability](https://www.prostep.org/en/medialibrary/fact-sheets/ssp-traceability-specification) and [FMI](https://fmi-standard.org/) (Functional Mock-up Interface) to improve collaboration between all stakeholders and make results traceable and credible. As a reliable partner, eXXcellent solutions stands for state-of-the-art technologies, customized concepts and forward-looking solutions - and supports you on your path to success."
+ %}}
+
+
 #### [Modelon AB](modelon)
  {{< TwoC-Table image="/images/modelon-logo.webp" text="Modelon offers systems modeling and simulation software that accelerates product innovation, development, and operations in a range of industries. Modelon is revolutionizing the engineering design industry by offering technologies and services that enable customers to leverage system simulation. Modelon’s flagship product, Modelon Impact, is a cloud system simulation platform that helps engineers virtually design, analyze, and simulate physical systems. Our team brings deep industry expertise and is dedicated to guiding our customers in creating innovative technologies at their respective organizations. Headquartered in Lund, Sweden, Modelon is a global company with offices in Germany, India, Japan, Prague, and the United States. We believe that system simulation should be accessible to every engineer and are dedicated to being an open-standard platform company.  " >}} 
+ 
+#### [PMSF IT Consulting](https://pmsf.eu) 
+ {{% TwoC-Table image="/images/PMSFLogoNewLarge.webp" text="PMSF provides technology-driven IT Consulting and Products to Industrial Customers in the areas of Simulation, Embedded Software Development, Safety Standards, and Programming Methodology, Languages and Compilers. With more than twenty years experience in the field, we are able to provide cost-effective solutions with little overhead and quick turn-around. PMSF's flagship product is the [FMIBench](https://modelbased.cloud/tools/fmi/) workbench, a swiss-army knife for working with FMUs and FMI-based workflows."  
+ %}}
 
 #### [XRG Simulation GmbH](xrg)
  {{< TwoC-Table image="/images/XRGlogo.webp" text="XRG Simulation specializes in calculating the behavior of complex energy systems under dynamic and steady-state conditions. Modeling and simulation using numerical methods are time- and cost-effective, enabling precise calculations of complex systems. In addition, XRG Simulation develops complementary tools such as control and optimization programs, co-simulations, extensive databases, and conducts studies and mathematical optimizations for its clients. MBI collaborates with XRG to bring their products to the US market." >}} 

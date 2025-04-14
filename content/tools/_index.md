@@ -23,13 +23,13 @@ MBI is committed to delivering on the promise of open-standard technologies – 
 
 {{% /icon-left-aligned %}}
 
-{{% icon-left-aligned icon="/images/FMI.svg" size="400" %}}
+{{% icon-left-aligned icon="/images/FMI.svg" size="800px" %}}
 
 The [Functional Mock-up Interface](https://fmi-standard.org) is a tool independent standard to support both model exchange and co-simulation of dynamic models. FMI is a free standard that defines a container and an API to interact with dynamic simulation models using a combination of XML files, binaries, and C code. FMI is a core component for MBI in providing value to our customers. With FMI, plant models developed by experts in advanced simulation tools can be reused across the organization by teams using standard desktop tools. MBI provides the FMI Toolbox and FMI Toolbox Coder Add-On. MBI also develops customized solutions to integrate FMI seamlessly into any workflow.
 
 
 {{% /icon-left-aligned %}}
-{{% icon-left-aligned icon="/images/SSP.svg" %}}
+{{% icon-left-aligned icon="/images/SSP.svg" size="400" %}}
 
 SSP, [System Structure and Parameterization](https://ssp-standard.org), is a tool independent standard to define complete systems of one or more FMUs including its parameterization that can be transferred between simulation tools.
 

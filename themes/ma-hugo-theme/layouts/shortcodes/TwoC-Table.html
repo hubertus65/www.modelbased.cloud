@@ -7,7 +7,7 @@
     <img src="{{ .Get "image" }}" alt="icon" style="width: 150px;" />
   </td>
   <td style="vertical-align: middle; padding-left: 10px;">
-    {{ .Get "text" }}
+    {{ .Get "text" | markdownify }}
   </td>
 </tr>
 </table>
