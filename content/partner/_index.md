@@ -12,7 +12,7 @@ sitemap:
 
 MBI LLC has partnered with several European companies in the Modelica-space, that all have specialized in certain application areas for which they offer outstanding Modelica related tools and Libraries. 
 
-#### [Excellent Solutions](https://www.exxcellent.de/)
+#### [eXXcellent Solutions](https://www.exxcellent.de/)
 
  {{% TwoC-Table image="/images/exxcellent_logo.webp" text="For over 20 years, eXXcellent solutions has stood for the development of innovative software solutions that sustainably optimize processes in companies. With in-depth expertise and a clear focus on the needs of their customers, they create customized solutions that pave the way for efficiency and success. With [orchideo |easySSP](https://www.easy-ssp.com/), a Software-as-a-Service (SaaS), they have developed a solution that supports companies in taking their simulation processes to a new level. The platform uses open standards such as [SSP](https://ssp-standard.org/) (System Structure and Parameterization), [SSP Traceability](https://www.prostep.org/en/medialibrary/fact-sheets/ssp-traceability-specification) and [FMI](https://fmi-standard.org/) (Functional Mock-up Interface) to improve collaboration between all stakeholders and make results traceable and credible. As a reliable partner, eXXcellent solutions stands for state-of-the-art technologies, customized concepts and forward-looking solutions - and supports you on your path to success."
  %}}
