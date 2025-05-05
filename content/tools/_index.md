@@ -30,7 +30,7 @@ The [Functional Mock-up Interface](https://fmi-standard.org) is a tool independe
 
 {{% /icon-left-aligned %}}
 
-{{% icon-left-aligned icon="/images/SSP.svg" size="400px" %}}
+{{% icon-left-aligned icon="/images/SSP_bare.svg" size="400px" %}}
 
 SSP, [System Structure and Parameterization](https://ssp-standard.org), is a tool independent standard to define complete systems of one or more FMUs including its parameterization that can be transferred between simulation tools.
 
