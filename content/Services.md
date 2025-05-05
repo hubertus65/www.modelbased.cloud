@@ -6,15 +6,16 @@ title: Services
 
 The Team from MBI has over 20 years of experience in modeling and simulation, and the development model-based work flows and processes for a wide range of industries. With our wide-ranging experience, we can support you with a whole spectrum of services, from the design of your processes, teams and workflows to the details of figuring out the right abstraction for your models by applying the right math. We typically use the Systems Engineering Design-Vee, and more sepcifically, all digital, simulation based subset of it, to describe where and how we add business value to your product design. 
 
- - Getting started with model based design, implementing a simulation-based process for product development
+ - Getting started with model based design, implementing a simulation-based process for product development.
  - Tool customization for Modelica-based tools, especially for Modelon Impact.
- - Automation of Modeling and Simulation processes to increase efficiency
- - Custom model- and library development
- - Power plant and process modeling
- - Thermofluid systems modeling, air conditioning, refrigeration 
- - Hydraulic- and Pneumatic system modeling
- - Real time and hardware in the loop/ software in the loop simulation
- - Building web-apps and extensions on top of Modelon Impact
+ - Product development services based on the Functional Mockup Interface (FMI).
+ - Automation of Modeling and Simulation processes to increase efficiency.
+ - Custom model- and library development.
+ - Power plant and process modeling.
+ - Thermofluid systems modeling, air conditioning, refrigeration.
+ - Hydraulic- and Pneumatic system modeling.
+ - Real time and hardware in the loop/ software in the loop simulation.
+ - Building web-apps and extensions on top of Modelon Impact.
 
  ![Design-Vee](/images/DoubleVeeFrontpage.svg)
  
