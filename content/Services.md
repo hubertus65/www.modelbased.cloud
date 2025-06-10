@@ -25,7 +25,7 @@ Model baased Design is a practical and organizational challenge for companies th
  - Hydraulic- and Pneumatic system modeling.
  - Building web-apps and extensions on top of Modelon Impact.
  
-### Services to implement and support the Functional Mockup Interface 
+### Services to implement and support the Functional Mockup Interface (FMI)
 
  - Product development services based on the Functional Mockup Interface (FMI).
  - Maintenance, update and testing of FMI-based software; 
