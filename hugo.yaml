@@ -20,11 +20,22 @@ markup:
 menus:
   main:
         
-    - pageRef: "services"
-      identifier: "services"
+    - identifier: "services"
       name: "Services"
       url: "/services/"
       weight: 1
+
+    - identifier: "consulting"
+      name: "Consulting"
+      url: "/services/consulting/"
+      parent: "services"
+      weight: 1
+
+    - identifier: "training"
+      name: "Training"
+      url: "/services/training/"
+      parent: "services"
+      weight: 2
 
     - pageRef: "company"
       identifier: "company"
