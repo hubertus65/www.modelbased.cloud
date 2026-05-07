@@ -68,7 +68,14 @@ menus:
       name: "Process Systems Library"
       url: "/libraries/psl/"
       parent: "libraries"
-      weight: 3   
+      weight: 3
+
+    - pageRef: "BlueEnergy"
+      identifier: "BlueEnergy"
+      name: "Blue Energy Library"
+      url: "/libraries/blueenergy/"
+      parent: "libraries"
+      weight: 4
 
     - pageRef: "tools"
       identifier: "tools"
