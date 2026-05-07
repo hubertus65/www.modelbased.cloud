@@ -45,7 +45,7 @@ Optimization of efficiency and operating costs across complex, multi-energy syst
 {{< /block-centered >}}
 
 {{< block-centered icon="/images/blue-energy/icon-quantitative.svg" alt="Quantitative evaluation icon" title="Quantitative Evaluation">}}
-Quantitative evaluation of multivalent influencing factors across heating, cooling, power and mobility.
+Quantitative evaluation of various influencing factors across heating, cooling, power and mobility.
 {{< /block-centered >}}
 
 {{< block-centered icon="/images/blue-energy/icon-variant-studies.svg" alt="Variant studies icon" title="Variant Studies">}}
@@ -87,7 +87,7 @@ state-of-the-art engineering consulting. Available component models include:
 
 - **Renewable energies** — Solar, Wind, Biogas and more
 - **Energy storages** — Thermal, electrical and chemical
-- **Heat pumps**
+- **Heat pumps** — residential and industrial
 - **Controllers**
 - **HVAC**
 - **E-Mobility** — Charging stations and vehicles
@@ -111,7 +111,7 @@ state-of-the-art engineering consulting. Available component models include:
 #### Combined Heat and Power Plant for a Building District
 
 A simplified model of heat, warm water and electrical energy consumers supplied
-by a combined heat and power plant, with time-table-defined consumption and a
+by a combined heat and power plant, with time-table-defined loads and a
 heat storage buffer for load peaks. The simulation reveals whether the plant can
 meet the electrical load continuously without additional electrical energy
 storage.
@@ -126,7 +126,7 @@ storage.
 #### Multi-Zone Building with Electrical Vehicles
 
 A building model with two thermal zones and an electric vehicle including its
-own charging station and battery. The model calculates the thermal behaviour of
+own charging station and battery. The model calculates the thermal behavior of
 the building through the balance of all heat quantities (transmission, internal
 loads, solar radiation). Electrical power is provided by a photovoltaic system
 and a small wind power plant. An air/water heat pump provides building heat.
@@ -152,7 +152,7 @@ for short-term buffering.
 ### What Makes Blue Energy Outstanding?
 
 The library is constantly reviewed and tested by trained engineers in real
-project applications.
+project applications. Several application-specific add-ons are available on request. 
 
 {{< content-container >}}
 
@@ -182,5 +182,5 @@ Adapt components to your own IP and extend the library for your specific use cas
 |---|---|
 | Product website | [www.blue-energy-library.com](https://www.blue-energy-library.com/) |
 | Documentation | [documentation.blue-energy-library.com](https://documentation.blue-energy-library.com/blue-energy-library.html) |
-| Contact / Demo request | [Request a free trial license](https://www.blue-energy-library.com/contact/) |
+| Contact / Demo request | [Request a free trial license](https://modelbased.cloud/company/) |
 | Developer | [EA Systems Dresden GmbH](https://www.ea-energie.de/en/) |
