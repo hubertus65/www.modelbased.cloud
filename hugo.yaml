@@ -150,5 +150,11 @@ menus:
       name: "TLK-Thermo"
       url: "/partner/tlkt/"
       parent: "partner"
-      weight: 5        
-      
+      weight: 5
+
+    - pageRef: "EAEnergy"
+      identifier: "EAEnergy"
+      name: "EA Systems Dresden"
+      url: "/partner/ea-energy/"
+      parent: "partner"
+      weight: 6
