@@ -77,6 +77,13 @@ menus:
       parent: "libraries"
       weight: 4
 
+    - pageRef: "TILSuite"
+      identifier: "TILSuite"
+      name: "TIL Suite"
+      url: "/libraries/til-suite/"
+      parent: "libraries"
+      weight: 5
+
     - pageRef: "tools"
       identifier: "tools"
       name: "Tools"
