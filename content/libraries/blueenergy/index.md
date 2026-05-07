@@ -183,4 +183,4 @@ Adapt components to your own IP and extend the library for your specific use cas
 | Product website | [www.blue-energy-library.com](https://www.blue-energy-library.com/) |
 | Documentation | [documentation.blue-energy-library.com](https://documentation.blue-energy-library.com/blue-energy-library.html) |
 | Contact / Demo request | [Request a free trial license](https://www.blue-energy-library.com/contact/) |
-| Vendor | [EA Systems Dresden GmbH](https://www.ea-energie.de/en/) |
+| Developer | [EA Systems Dresden GmbH](https://www.ea-energie.de/en/) |
