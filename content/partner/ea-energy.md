@@ -10,9 +10,10 @@ sitemap:
   changeFreq: monthly
 ---
 
-{{< logo-centered image="/images/EASD_logo_transparent.webp">}}
-
 {{< content-container >}}
+{{< block-left-aligned >}}
+{{< logo-centered image="/images/EASD_logo_transparent.webp" width="300px">}}
+{{< /block-left-aligned >}}
 {{% block-left-aligned %}}
 
 [EA Systems Dresden GmbH](https://www.ea-energie.de/en/) (EASD) is a Dresden-based engineering company
@@ -39,7 +40,8 @@ EASD's deep energy-domain knowledge with MBI's expertise in model-based
 design processes and Modelon Impact.
 
 {{% /block-left-aligned %}}
-{{< block-left-aligned >}}
+{{< /content-container >}}
+
+{{< content-container >}}
 {{< responsive-image src="images/EASD_consulting.webp" alt="EA Systems Dresden — energy system consulting" >}}
-{{< /block-left-aligned >}}
 {{< /content-container >}}

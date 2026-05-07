@@ -44,6 +44,8 @@ Course participants can get a short-time license for [Modelon Impact by Modelon]
 [Dymola](https://www.3ds.com/products/catia/dymola) or [System Modeler](https://www.wolfram.com/system-modeler/), and possibly some other Modelica tools, as long as they have a text editor and
 can process version 4.1 of the Modelica Standard Library.
 
+{{< content-container >}}
+{{% block-left-aligned %}}
 ### Introduction to Modelica, Part I
 
  - Introduction to physics based system modeling through a first example
@@ -56,7 +58,8 @@ can process version 4.1 of the Modelica Standard Library.
  - Modelica Coding Best practices – part 1
  - Online Resources
  - Exercise discussion
-
+{{% /block-left-aligned %}}
+{{% block-left-aligned %}}
 ### Introduction to Modelica, Part II
 
  - Organizing models in packages
@@ -68,6 +71,8 @@ can process version 4.1 of the Modelica Standard Library.
  - Functions with user-defined derivatives
  - Discrete and Continuous Time Hybrid modeling
  - Exercise discussion
+{{% /block-left-aligned %}}
+{{< /content-container >}}
  
 ### Control Design and Analysis using Modelica, Python  and Modelon Impact
 
@@ -83,7 +88,18 @@ can process version 4.1 of the Modelica Standard Library.
 	- Low Order Modeling and Model order reduction
 	- Sampling, discrete time systems
   1. Workshop 1: Performance assessment and Linearization 
+  
+### Modeling in Modelica with Agentic AI
 
+At MBI LLC we have developed an MCP agent for [Modelon Impact](https://modelon.com/modelon-impact/) that can be run 
+locally for easy integration with IP that must stay inside a defined system boundary. We have also developed skills that capture 
+decades of modeling experience, which can be used with AI coding tools such as Claude Code or Cursor. This course will be tailored 
+to the customers needs in order to maximize benefit from combining in-house IP with a cloud-based modeling platform. 
 
+### Courses for specific Libraries
 
-For more pricing information, custom selection of topics and schedule, please fill in the [contact form](/Company/) or {{< appointment >}}
+For all Libraries, custom training courses are available for the specific library. Please inquire for details by filling 
+in the [contact form](/Company/) or booking an appointment.
+
+{{< appointment >}}  
+

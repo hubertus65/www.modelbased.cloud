@@ -23,15 +23,17 @@ optimize the cooling of a battery system.
 TIL Suite runs in [Dymola](https://www.3ds.com/products/catia/dymola) and
 [Modelon Impact](https://modelbased.cloud/tools/modelica/), and is
 available through Model Based Innovation as part of our libraries offering.
-We at [TLK Energy](https://tlk-energy.de/en) actively participate in the
-development of the library and use TIL Suite in service projects across a
-wide range of thermal applications.
+We at [MBI LLC](https://modelbased.cloud/) use TIL Suite in service projects 
+across a wide range of thermal applications.
 
-> *"At Danfoss, we use the TIL Suite model library in Dymola and Modelon
-> Impact to develop our products more effectively. TIL Suite helps us design
-> components for heat pumps for residential and industrial use, as well as
-> innovative cooling solutions for data centers."*
-> — Enno Vredenborg, Senior Manager Digital Solutions at Danfoss
+{{% portrait-quote image="/images/til-suite/enno-vredenborg.webp" alt="Enno Vredenborg" width="120px" %}}
+*"At Danfoss, we use the TIL Suite model library in Dymola and Modelon
+Impact to develop our products more effectively. TIL Suite helps us design
+components for heat pumps for residential and industrial use, as well as
+innovative cooling solutions for data centers."*
+
+— Enno Vredenborg, Senior Manager Digital Solutions at Danfoss
+{{% /portrait-quote %}}
 {{% /block-left-aligned %}}
 {{< block-left-aligned >}}
 {{< responsive-image src="images/til-suite/til-suite-hero.webp" alt="TIL Suite system model on a laptop" >}}
@@ -44,22 +46,22 @@ wide range of thermal applications.
 
 {{< content-container >}}
 
-{{< block-centered icon="/images/til-suite/icon-usability.svg" alt="Usability icon" title="Design and Comparison">}}
+{{< block-centered icon="/images/til-suite/icon-usability-black.svg" alt="Usability icon" title="Design and Comparison">}}
 Design and comparison of different system variants to find the optimal
 configuration early in the project.
 {{< /block-centered >}}
 
-{{< block-centered icon="/images/til-suite/icon-reliability.svg" alt="Reliability icon" title="Transient Analysis">}}
-Investigation of transient plant behaviour under realistic varying boundary
+{{< block-centered icon="/images/til-suite/icon-reliability-black.svg" alt="Reliability icon" title="Transient Analysis">}}
+Investigation of transient plant behavior under realistic varying boundary
 conditions and load profiles.
 {{< /block-centered >}}
 
-{{< block-centered icon="/images/til-suite/icon-support.svg" alt="Support icon" title="Control Development">}}
+{{< block-centered icon="/images/til-suite/icon-support-black.svg" alt="Support icon" title="Control Development">}}
 Development and testing of control strategies in a risk-free simulation
 environment before hardware integration.
 {{< /block-centered >}}
 
-{{< block-centered icon="/images/til-suite/icon-usability.svg" alt="Optimization icon" title="Parameter Studies">}}
+{{< block-centered icon="/images/til-suite/icon-usability-black.svg" alt="Optimization icon" title="Parameter Studies">}}
 Parameter studies, sensitivity analyses and identification of optimization
 potentials across the design space.
 {{< /block-centered >}}
@@ -72,7 +74,7 @@ potentials across the design space.
 
 {{< content-container >}}
 {{< block-left-aligned >}}
-{{< responsive-image src="images/til-suite/heatpump-model.png" alt="CO2 heat pump model in TIL Suite" >}}
+{{< responsive-image src="images/til-suite/heatpump-model.webp" alt="CO2 heat pump model in TIL Suite" >}}
 {{< /block-left-aligned >}}
 {{% block-left-aligned %}}
 
@@ -91,7 +93,7 @@ complete thermodynamic cycle.
 
 {{< content-container >}}
 {{< block-left-aligned >}}
-{{< responsive-image src="images/til-suite/hvac-model.png" alt="TIL model of a ventilation system" >}}
+{{< responsive-image src="images/til-suite/hvac-model.webp" alt="TIL model of a ventilation system" >}}
 {{< /block-left-aligned >}}
 {{% block-left-aligned %}}
 
@@ -109,7 +111,7 @@ and winter conditions.
 
 {{< content-container >}}
 {{< block-left-aligned >}}
-{{< responsive-image src="images/til-suite/battery-model.png" alt="TIL model of an electric car battery cooling circuit" >}}
+{{< responsive-image src="images/til-suite/battery-model.webp" alt="TIL model of an electric car battery cooling circuit" >}}
 {{< /block-left-aligned >}}
 {{% block-left-aligned %}}
 
@@ -128,11 +130,9 @@ driving cycle.
 ---
 
 ### Supported System Types
-
-TIL Suite can be used to model a wide range of thermal systems:
-
 {{< content-container >}}
 {{% block-left-aligned %}}
+TIL Suite can be used to model a wide range of thermal systems:
 - Refrigeration circuits
 - Heat pump systems
 - Hydraulic networks
@@ -206,17 +206,17 @@ For robust simulations with switching processes and transient boundary condition
 
 {{< content-container >}}
 
-{{< block-centered icon="/images/til-suite/icon-usability.svg" alt="Usability icon" title="Usability">}}
+{{< block-centered icon="/images/til-suite/icon-usability-black.svg" alt="Usability icon" title="Usability">}}
 Open and modifiable Modelica code that can be easily customized and integrated
 into your own projects and toolchains.
 {{< /block-centered >}}
 
-{{< block-centered icon="/images/til-suite/icon-reliability.svg" alt="Reliability icon" title="Reliability">}}
+{{< block-centered icon="/images/til-suite/icon-reliability-black.svg" alt="Reliability icon" title="Reliability">}}
 Continuously developed code that has been successfully used in industry for
 years, validated against real measurement data.
 {{< /block-centered >}}
 
-{{< block-centered icon="/images/til-suite/icon-support.svg" alt="Support icon" title="Support">}}
+{{< block-centered icon="/images/til-suite/icon-support-black.svg" alt="Support icon" title="Support">}}
 You are not alone. TLK Energy and Model Based Innovation support customers with
 training, video chats and individual consulting services.
 {{< /block-centered >}}
@@ -232,7 +232,7 @@ training, video chats and individual consulting services.
 | Product website | [tlk-energy.de/en/software/til-suite](https://tlk-energy.de/en/software/til-suite) |
 | TIL Adsorption add-on | [tlk-energy.de/en/software/til-suite/adsorption](https://tlk-energy.de/en/software/til-suite/adsorption) |
 | Hydrogen systems add-on | [tlk-energy.de/en/software/til-suite/hydrogen-systems](https://tlk-energy.de/en/software/til-suite/hydrogen-systems) |
-| Modelica training | [tlk-energy.de/en/modelica-training](https://tlk-energy.de/en/modelica-training) |
-| Contact / get a quote | [Schedule an appointment](https://calendly.com/welcome-to-tlk-energy/30min) |
+| Modelica training | [https://modelbased.cloud/services/training/](https://modelbased.cloud/services/training/) |
+| Contact / get a quote | [Schedule an appointment](https://bookings.cloud.microsoft/book/MBIIntroductionMeeting@modelbased.cloud/?ismsaljsauthenabled=true) |
 | Developer | [TLK-Thermo GmbH](https://tlk-thermo.com/) |
-| Sold by | [TLK Energy GmbH](https://tlk-energy.de/en) |
+| Sold by | [Model Based Innovation LLC](https://modelbased.cloud/) |

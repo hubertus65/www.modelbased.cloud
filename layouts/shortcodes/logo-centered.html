@@ -1,0 +1,6 @@
+{{ $width := .Get "width" | default "400px" }}
+<div class="centered">
+  <p>
+  <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" style="max-width: {{ $width }}; width: 100%;">
+  </p>
+</div>

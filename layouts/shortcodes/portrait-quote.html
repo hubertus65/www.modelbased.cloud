@@ -1,0 +1,5 @@
+{{ $width := .Get "width" | default "80px" }}
+<div style="display: flex; align-items: flex-start; gap: 1.25rem; margin: 1rem 0;">
+  <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" style="width: {{ $width }}; flex-shrink: 0; border-radius: 4px;">
+  <blockquote style="margin: 0;">{{ .Inner | markdownify }}</blockquote>
+</div>

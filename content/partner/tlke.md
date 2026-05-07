@@ -24,6 +24,6 @@ TLK Energy has deep expertise in process simulation, especially for Power-to_X p
 This enables us to accompany our customers on the fastest path to virtual prototypes, reliably find errors and develop the best solutions.
 {{% /block-left-aligned %}}
 {{< block-left-aligned >}}
-{{< responsive-image src="/images/TLKE_about.webp" alt="TLK Energy" >}}
+{{< responsive-image src="/images/TLKE_about.webp" alt="TLK Energy" maxwidth="400px" >}}
 {{< /block-left-aligned >}}
 {{< /content-container >}}
