@@ -37,6 +37,12 @@ menus:
       parent: "services"
       weight: 2
 
+    - pageRef: "blog"
+      identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 5
+
     - pageRef: "company"
       identifier: "company"
       name: "Company"

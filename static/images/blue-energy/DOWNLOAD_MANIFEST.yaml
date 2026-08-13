@@ -1,0 +1,72 @@
+# Blue Energy Library — Image Download Manifest
+#
+# The blue-energy-library.com WordPress site blocks server-side downloads
+# (HTTP 403 on all wp-content/uploads URLs).
+# Save each image manually from your browser and place it in:
+#
+#   static/images/blue-energy/
+#
+# in your Hugo project root.
+
+DEST_DIR: static/images/blue-energy/
+
+images:
+  - local: blue-energy-logo.png
+    source: https://www.blue-energy-library.com/wp-content/uploads/2023/12/blue-energy-v3.png
+    used_in: content/libraries/blueenergy/index.md (logo, optional)
+
+  - local: blue-energy-hero.jpg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/06/istock-1682079382-blau-1024x576.jpg
+    used_in: (optional hero image, not currently in page)
+
+  - local: blue-energy-schaubild.png
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/10/blue-energy-schaubild.png
+    used_in: System overview diagram — displayed in page
+
+  - local: blue-energy-example-home.jpg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/07/example-c-1-1024x640.jpg
+    used_in: Single-family home example — displayed in Simulation Models section
+
+  - local: blue-energy-district.jpg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/07/street.jpg
+    used_in: Combined Heat and Power use case
+
+  - local: blue-energy-multi-zone.jpg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/07/example-c-cut-1.jpg
+    used_in: Multi-Zone Building use case
+
+  - local: blue-energy-ice-storage.jpg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2025/07/eisspeicher-1024x532.jpg
+    used_in: Office Building with Ice Storage use case
+
+  - local: icon-efficiency.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/iStock-604353226_improvement.svg
+    used_in: Benefits section — Efficiency icon
+
+  - local: icon-quantitative.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/Quantitativeevaluationofmultivalentinfluencingfactors.svg
+    used_in: Benefits section — Quantitative evaluation icon
+
+  - local: icon-variant-studies.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/VariantstudiesandWhatifanalysis.svg
+    used_in: Benefits section — Variant studies icon
+
+  - local: icon-risk-free.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/Riskfreesystemevaluationforcontrolstrategies.svg
+    used_in: Benefits section — Risk-free evaluation icon
+
+  - local: icon-practical.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/Practical-Orientation.svg
+    used_in: Outstanding section — Practical orientation icon
+
+  - local: icon-interdisciplinary.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/iStock-604353226_collaboration.svg
+    used_in: Outstanding section — Interdisciplinarity icon
+
+  - local: icon-ready-to-use.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/iStock-604353226_check.svg
+    used_in: Outstanding section — Ready-to-use icon
+
+  - local: icon-flexible.svg
+    source: https://www.blue-energy-library.com/wp-content/uploads/2024/03/Flexible-and-Extensible.svg
+    used_in: Outstanding section — Flexible and Extensible icon
